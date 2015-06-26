@@ -1,0 +1,27 @@
+body {
+  font-family: OpenSans-Regular;
+}
+.nav-section-container {
+  display: inline-block;
+}
+.nav-image {
+  vertical-align: super;
+  width: 30px;
+  padding-bottom: 4px;
+  margin-right: 4px;
+}
+.navbar,
+.navbar-default .navbar-collapse,
+.navbar .navbar-default .navbar-form {
+  background-color: #fff;
+}
+.menu-img {
+  width: 14px;
+  height: 16px;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 6px;
+}
+.u-center {
+  text-align: center;
+}
