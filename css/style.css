@@ -362,23 +362,85 @@ article footer .addthis iframe {
 }
 .author {
   margin: 2em 0;
+  border-top: 1px solid #bdc3c7;
+  border-bottom: 1px solid #bdc3c7;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  width: 100%;
 }
 .author .author-image {
   max-width: 80px;
   max-height: 80px;
   float: left;
   margin: 0.5em 2em 0 1em;
+  -webkit-border-radius: 45px;
+  border-radius: 45px;
 }
 .author .author-name {
   font-weight: 700;
 }
 .author .author-bio {
   line-height: 1.5;
+  display: -webkit-inline-box;
+  display: -moz-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-box;
+  display: inline-flex;
+  width: 60%;
+}
+.author .author-sites {
+  display: -webkit-inline-box;
+  display: -moz-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-box;
+  display: inline-flex;
+  margin-left: 16px;
 }
 .author .author-sites a {
-  font-size: 0.8em;
-  line-height: 1;
-  color: #c1c1c1;
+  background-color: #ecf0f1;
+  padding: 8px;
+  margin-right: 8px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+@media only screen and (min-width: 0) and (max-width: 767px) {
+  .author-bio {
+    display: block !important;
+    width: 100% !important;
+  }
+  .author-sites {
+    margin-top: 32px;
+    text-align: center;
+    width: 100%;
+    display: block !important;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .author-bio {
+    display: block !important;
+    width: 100% !important;
+  }
+  .author-sites {
+    display: block !important;
+    width: 100% !important;
+    text-align: center;
+    margin-top: 24px;
+  }
+}
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+  .author-bio {
+    width: 100% !important;
+    display: block !important;
+  }
+  .author-sites {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    margin-top: 24px;
+    display: block !important;
+  }
 }
 #comment {
   background: #fff;
