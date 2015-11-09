@@ -41,6 +41,9 @@ article.link .title a:after {
 article .post-content {
   position: relative;
 }
+article .post-content p {
+  line-height: 2;
+}
 article .gallery {
   overflow: hidden;
   position: relative;
